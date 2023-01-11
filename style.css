@@ -12,6 +12,50 @@
 
 /* END css Emoji container/section */
 
-/*  CSS footer container/section */
+/*  CSS media section */
+.social-icons img {
+    width: 80px;
+    transition: 0.5s;
+}
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+/* END css media section */
 
+/*  CSS footer container/section */
+/*footer section*/
+#footer {
+    background-color: #9ED2C6;
+}
+.footer-box {
+    padding: 20px;
+}
+.footer-box img {
+    width: 90px;
+    margin-bottom: 20px;
+}
+/*if i add someicons
+.footer-box {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 50px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+}*/
+.footer-box .form-control{
+   box-shadow: none !important;
+   border: none;
+   border-radius: 3;
+   margin-top: 25px;
+   max-width: 250px;
+}
+.footer-box .btn-primary {
+    box-shadow: none !important;
+    border: none;
+    background-color: #54BAB9;
+    border-radius: 3;
+    margin-top: 30px;
+}
 /*  END CSS footer container/section */
