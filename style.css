@@ -50,6 +50,43 @@ nav {
   justify-content: flex-end;
 }*/
 
+/* Tacos page style*/
+.taco-parent-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+}
+.taco-container-leftitem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+  margin-top: 60px;
+}
+.list-group {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0;
+}
+#birria-img {
+  width: 300px;
+  border: 2px solid #dee2e6;
+  border-radius: 30px;
+}
+.taco-container-rightitem {
+  display: flex;
+  gap: 20px;
+}
+/*.process-thumbnail-img {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  padding: 10px;
+  gap: 20px;
+}*/
+
 /* END css Navbar and Introduction container/section */
 
 /* CSS Main container/section */
