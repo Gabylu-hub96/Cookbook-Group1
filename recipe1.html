@@ -15,6 +15,73 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: #9ed2c6">
+        <div class="container-fluid">
+          <a class="navbar-logo" href="/index.html"
+            ><img
+              src="./images/Console_chef_logo1.png"
+              class="console-chef-logo"
+              alt="console chef logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html"
+                  >Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Recipes
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/recipe1.html">Recipe 1</a></li>
+                  <li><a class="dropdown-item" href="/recipe2.html">Recipe 2</a></li>
+                  <li><a class="dropdown-item" href="/recipe3.html">Recipe 3</a></li>
+                  <li><a class="dropdown-item" href="/recipe4.html">Recipe 4</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About</a>
+              </li>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search for more recipes"
+                  aria-label="Search for more recipes" />
+                <button class="btn btn-outline-success" idtype="submit">
+                  Search
+                </button>
+              </form>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- END Navbar and Introduction container/section -->
+     
     <!-- Recipe 1 Page - Gabriela -->
     <div class="container mt-4 p-5 recipe shadow-sm border border-dark rounded">
       <h1
@@ -151,6 +218,34 @@
         </ol>
       </div>
     </div>
+    <!-- footer container/section -->
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-box">
+            <img src="images/Console_chef_logo1.png" />
+            <p>
+              If you have any questions or suggestions, feel free to contact us.
+              Moreover, you can visit our restaurant and taste dishes prepared
+              by our chefs!
+            </p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>CONTACT US</b></p>
+            <p>Console Chef Restaurant</p>
+            <p>Wilsnacker Str. 61, Berlin - Deutschland</p>
+            <p>+49 256 022 4565</p>
+            <p>console.chef@gmail.com</p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>SUBSCRIBE NEWSLETTER</b></p>
+            <input type="email" class="form-control" placeholder="Your Email" />
+            <button type="button" class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END footer container/section -->
 
     <!--code for bootstrap js-->
     <script
