@@ -20,10 +20,10 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 25 px 50px;
+  margin: 14px 70px;
 }
 .console-chef-logo {
-  width: 120px;
+  width: 130px;
   margin: -18px;
 }
 .navbar-expand-lg .navbar-collapse {
@@ -93,6 +93,20 @@ nav {
 
 /* CSS Main container/section */
 
+.recipes-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+.top-row-recipes,
+.bottom-row-recipes {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
 /* END css Main container/section */
 
 /* CSS Emoji container/section */
@@ -147,20 +161,20 @@ nav {
   margin-top: 30px;
 }
 hr {
-    background-color: #fff;
+  background-color: #fff;
 }
 .copyright {
-    margin-bottom: 0;
-    padding-bottom: 20px;
-    text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
 }
 /*  END CSS footer container/section */
 
 /*section: recipe 4*/
 body::before {
-    display: block;
-    content: '';
-    height: 60px;
+  display: block;
+  content: "";
+  height: 60px;
 }
 
 /*END of section: recipe 4*/
