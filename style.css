@@ -58,4 +58,21 @@
     border-radius: 3;
     margin-top: 30px;
 }
+hr {
+    background-color: #fff;
+}
+.copyright {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
 /*  END CSS footer container/section */
+
+/*section: recipe 4*/
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+/*END of section: recipe 4*/
