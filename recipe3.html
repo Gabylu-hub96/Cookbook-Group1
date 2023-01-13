@@ -13,12 +13,125 @@
       crossorigin="anonymous"
     />
     <!--link to our css for additional styling-->
-    <link rel="stylesheet" href="style.css" />
+    <!--<link rel="stylesheet" href="stylee.css" /> -->
+    <link rel="stylesheet" href="style3.css" />
   </head>
 
   <body>
+    <!-- Nav bar try 3-->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary"
+      style="background-color: #9ed2c6 !important"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="" width="120" height="120" />
+          ConsoleChef
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipe1.html">Recipe 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipe2.html">Recipe 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipe3.html">Recipe 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipe4.html">Recipe 4</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search for more goodiessss"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-info" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--END Nav bar try 3-->
+
     <!-- Recipe 3 Page - Cristian -->
-    <h1 class="text-center">Recipe page Cristian</h1>
+    <!-- Start of container -->
+    <div class="container">
+      <!-- Start of Jumbotron -->
+      <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+          <img
+            src="images/recipe3-Cristian.jpeg"
+            class="img-fluid rounded-3"
+            alt="Mamaliga"
+          />
+
+          <h1 class="display-5 fw-bold mt-4">
+            Mamaliga - Traditional romanian polenta recipe
+          </h1>
+          <p class="col-md-8 fs-4">
+            We see polenta as a stand-alone dish, not simply a side dish. But it
+            is a versatile food that pairs well with meat, fish, sauces stews
+            and eggs. It is so essential in Romania that there is even a saying:
+            “one is ready for marriage once you know how to make polenta”. To
+            help you out, we’ve compiled a list of recipes for the perfect
+            polenta.
+          </p>
+          <button class="btn btn-outline-info btn-lg" type="button">
+            Let's start
+          </button>
+        </div>
+      </div>
+      <!-- End of Jumbotron -->
+    </div>
+    <!-- End of container -->
+    <!-- footer container/section -->
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-box">
+            <img src="images/Console_chef_logo1.png" />
+            <p>
+              If you have any questions or suggestions, feel free to contact us.
+              Moreover, you can visit our restaurant and taste dishes prepared
+              by our chefs!
+            </p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>CONTACT US</b></p>
+            <p>Console Chef Restaurant</p>
+            <p>Wilsnacker Str. 61, Berlin - Deutschland</p>
+            <p>+49 256 022 4565</p>
+            <p>console.chef@gmail.com</p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>SUBSCRIBE NEWSLETTER</b></p>
+            <input type="email" class="form-control" placeholder="Your Email" />
+            <button type="button" class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END footer container/section -->
     <!--code for bootstrap js-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

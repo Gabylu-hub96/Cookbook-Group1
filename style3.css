@@ -1,0 +1,45 @@
+/*  CSS footer container/section */
+/*footer section*/
+#footer {
+  background-color: #9ed2c6;
+}
+.footer-box {
+  padding: 20px;
+}
+.footer-box img {
+  width: 90px;
+  margin-bottom: 20px;
+}
+/*if i add someicons
+  .footer-box {
+      margin-right: 8px;
+      font-size: 25px;
+      height: 50px;
+      width: 40px;
+      text-align: center;
+      padding-top: 7px;
+      border-radius: 2px;
+  }*/
+.footer-box .form-control {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 3;
+  margin-top: 25px;
+  max-width: 250px;
+}
+.footer-box .btn-primary {
+  box-shadow: none !important;
+  border: none;
+  background-color: #54bab9;
+  border-radius: 3;
+  margin-top: 30px;
+}
+hr {
+  background-color: #fff;
+}
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+/*  END CSS footer container/section */
