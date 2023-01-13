@@ -8,35 +8,27 @@ body {
   line-height: 1.5em;
   background-color: #f7ecde;
 }
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-}
-
-.navbar-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 14px 70px;
+header {
+  margin-top: -60px;
 }
 .console-chef-logo {
   width: 130px;
   margin: -18px;
 }
-.navbar-expand-lg .navbar-collapse {
-  display: flex !important;
-  flex-basis: auto;
+
+#nav-bar-text {
+  gap: 54px;
+  display: flex;
   justify-content: flex-end;
-}
-.navbar-nav {
-  gap: 50px;
+  width: 100%;
+  padding: 30px;
 }
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link:active {
   color: azure;
+}
+#navbar-search-bar {
+  width: fit-content;
 }
 .btn-outline-success {
   border: none;
@@ -63,11 +55,11 @@ nav {
   gap: 80px;
   margin-top: 60px;
 }
-.list-group {
+/*.list-group {
   background-color: transparent;
   border-color: transparent;
   padding: 25px;
-}
+}*/
 #birria-img {
   width: 400px;
   border: 2px solid #dee2e6;

@@ -18,71 +18,59 @@
   <body>
     <!--  Navbar and Introduction container/section -->
     <header>
-        <nav
-          class="navbar fixed-top navbar-expand-lg navbar-light"
-          style="background-color: #9ed2c6">
-          <div class="container-fluid">
-            <a class="navbar-logo" href="#"
-              ><img
-                src="./images/Console_chef_logo1.png"
-                href="index.html"
-                class="console-chef-logo"
-                alt="console chef logo"
-            /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Recipes
-                  </a>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="recipe1.html">Recipe 1</a></li>
-                    <li><a class="dropdown-item" href="recipe2.html">Recipe 2</a></li>
-                    <li><a class="dropdown-item" href="recipe3.html">Recipe 3</a></li>
-                    <li><a class="dropdown-item" href="recipe4.html">Recipe 4</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <form class="d-flex">
-                  <input
-                    class="form-control me-2"
-                    type="search"
-                    placeholder="Search for more recipes"
-                    aria-label="Search for more recipes" />
-                  <button class="btn btn-outline-success" type="submit">
-                    Search
-                  </button>
-                </form>
-              </ul>
-            </div>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        style="background-color: #9ed2c6 !important">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="images/logo.png"
+              alt="console chef logo"
+              width="120"
+              height="120" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav-bar-text">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recipe1.html">Recipe 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recipe2.html">Recipe 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recipe3.html">Recipe 3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recipe4.html">Recipe 4</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search for more recipes"
+                aria-label="Search"
+                id="navbar-search-bar" />
+              <button class="btn btn-outline-info" type="submit">Search</button>
+            </form>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
     <!-- END Navbar and Introduction container/section -->
 
@@ -92,46 +80,71 @@
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
             <div class="welcoming-text">
-            <h1 class="fw-light">Console Chef</h1>
-            <p class="lead text-muted">
-              This site was created with love (and Bootstrap) by four amazing "Console Chef's". 
-              Here you can find easy and cozy recipes that we recommend preparing after a long day of coding.
-              We hope you enjoy them!
+              <h1 class="fw-light">Console Chef</h1>
+              <p class="lead text-muted">
+                This site was created with love (and Bootstrap) by four amazing
+                "Console Chef's". Here you can find easy and cozy recipes that
+                we recommend preparing after a long day of coding. We hope you
+                enjoy them!
               </p>
+            </div>
           </div>
         </div>
-      </div>
       </section>
       <div class="recipes-gallery">
         <div class="top-row-recipes">
-      <div class="card" style="width: 18rem;">
-        <img src="./images/birria-de-res-bowl.jpg" class="card-img-top" alt="Birria">
-        <div class="card-body">
-          <p class="card-text"><a href="recipe1.html">Click here</a> if you want to learn how to do some juicy beef Birria Tacos</p>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="./images/icecream2.jpg" class="card-img-top" alt="Icecream">
-        <div class="card-body">
-          <p class="card-text"><a href="recipe2.html">Click here</a> if you want to learn how to do a delicious Ice cream</p>
-        </div>
-      </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./images/birria-de-res-bowl.jpg"
+              class="card-img-top"
+              alt="Birria" />
+            <div class="card-body">
+              <p class="card-text">
+                <a href="recipe1.html">Click here</a> if you want to learn how
+                to do some juicy beef Birria Tacos
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./images/icecream2.jpg"
+              class="card-img-top"
+              alt="Icecream" />
+            <div class="card-body">
+              <p class="card-text">
+                <a href="recipe2.html">Click here</a> if you want to learn how
+                to do a delicious Ice cream
+              </p>
+            </div>
+          </div>
         </div>
         <div class="bottom-row-recipes">
-      <div class="card" style="width: 18rem;">
-        <img src="./images/recipe3-Cristian.jpeg" class="card-img-top" alt="Mamaliga">
-        <div class="card-body">
-          <p class="card-text"><a href="recipe3.html">Click here</a> if you want to learn how to do Mamaliga - a traditional romanian recipe </p>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./images/recipe3-Cristian.jpeg"
+              class="card-img-top"
+              alt="Mamaliga" />
+            <div class="card-body">
+              <p class="card-text">
+                <a href="recipe3.html">Click here</a> if you want to learn how
+                to do Mamaliga - a traditional romanian recipe
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="./images/Taramisu_recipe_4.jpg"
+              class="card-img-top"
+              alt="Tiramisu" />
+            <div class="card-body">
+              <p class="card-text">
+                <a href="recipe4.html">Click here</a> if you want to learn how
+                to do a heavenly Tiramisu
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img src="./images/Taramisu_recipe_4.jpg" class="card-img-top" alt="Tiramisu">
-        <div class="card-body">
-          <p class="card-text"><a href="recipe4.html">Click here</a> if you want to learn how to do a heavenly Tiramisu</p>
-        </div>
-      </div>
-    </div>
-    </div>
     </main>
 
     <!-- END Main container/section -->
@@ -143,27 +156,35 @@
           How do you like our ConsoleChef recipes site?
         </h1>
         <h4 class="text-white text-center my-4">
-          We are excited to share our delicious and easy-to-follow recipes with you. Whether you're a seasoned chef or just starting out, you'll find something new and exciting to try. Our site is designed to make it easy for you to find the perfect recipe, whether you're looking for a quick weeknight dinner or a special occasion meal. We hope you enjoy your time here and please let us know if there's anything we can do to make your experience better. Happy cooking!
-        </h1>
-        
+          We are excited to share our delicious and easy-to-follow recipes with
+          you. Whether you're a seasoned chef or just starting out, you'll find
+          something new and exciting to try. Our site is designed to make it
+          easy for you to find the perfect recipe, whether you're looking for a
+          quick weeknight dinner or a special occasion meal. We hope you enjoy
+          your time here and please let us know if there's anything we can do to
+          make your experience better. Happy cooking!
+        </h4>
       </div>
       <div class="row text-center">
         <div class="col-sm-12 col-md-6 col-lg-3">
-          <img src="images/love_emoji_g1.png" class="img-fluid" alt="Love it">
-        
+          <img src="images/love_emoji_g1.png" class="img-fluid" alt="Love it" />
+
           <h1 class="p-3 text-white">Love it</h1>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
-          <img src="images/like_emoji_g1.png" class="img-fluid" alt="Like it">
-          <h1 class="p-3  text-white">Like it</h1>
+          <img src="images/like_emoji_g1.png" class="img-fluid" alt="Like it" />
+          <h1 class="p-3 text-white">Like it</h1>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
-          <img src="images/not_really_emoji_g1.png" class="img-fluid" alt="Not really">
-          <h1 class="p-3  text-white">Not really</h1>
+          <img
+            src="images/not_really_emoji_g1.png"
+            class="img-fluid"
+            alt="Not really" />
+          <h1 class="p-3 text-white">Not really</h1>
         </div>
         <div class="col-sm-12 col-md-6 col-lg-3">
-          <img src="images/bleah_emoji_g1.png" class="img-fluid" alt="Bleeah">
-          <h1 class="p-3  text-white">Bleahhh</h1>
+          <img src="images/bleah_emoji_g1.png" class="img-fluid" alt="Bleeah" />
+          <h1 class="p-3 text-white">Bleahhh</h1>
         </div>
         <!--end row-->
       </div>
